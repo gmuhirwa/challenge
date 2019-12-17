@@ -21,9 +21,17 @@ body {
 	width: 32%;
 }
 
-#sec3, #sec4, #sec5, #sec6  {
-	width: 30%;
-	height: 350px;
+#sec3, #sec4 {
+	width: 16%;
+	float: left;
+	margin: 4px;
+	
+}
+
+#sec5, #sec6 {
+  background-color: gray;
+  width: 16%
+ 
 }
 
 #h1, #h2, #h3, #h4 {

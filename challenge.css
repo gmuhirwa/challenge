@@ -7,14 +7,32 @@ body {
   font-family: carbli;
 }
 
-#div1 {
+section {
 	background-color: gray;
+}
+
+#p1 {
+	
+	background-color: green;
+	border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    color: white;
+}
+
+#p2 {
+	background-color: green;
+}
+
+#p3 {
+	background-color: green;
+}
+
+#p4 {
+	background-color: green;
 }
 
 h2 {
   color: white;
 }
 
-section {
-	float: right;
-}

@@ -6,3 +6,15 @@ body {
   text-align: center;
   font-family: carbli;
 }
+
+#div1 {
+	background-color: gray;
+}
+
+h2 {
+  color: white;
+}
+
+section {
+	float: right;
+}

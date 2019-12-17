@@ -19,33 +19,6 @@ body {
     border-radius: .5em;
 }
 
-#sec2 {
-	width: 32%;
-	border: 1px solid black;
-	border-radius: .5em;
-}
-
-#sec3, #sec4 {
-	width: 16%;
-	margin: 4px;
-	border: 1px solid black;
-	vertical-align: middle;
-	border-radius: .5em;
-	position: relative;
-}
-
-#sec5, #sec6 {
-  background-color: gray;
-  position: relative;
-  width: 16%;
-  margin: 4px;
-  text-align: justify;
-  border: 1px solid black;
-  top: 240px;
-  border-radius: .5em;
-
-}
-
 #h1, #h2, #h3, #h4 {
 	
 	background-color: green;
@@ -59,6 +32,35 @@ body {
     border-radius: .5em;
 }
 
+#sec2 {
+	width: 32%;
+	border: 1px solid black;
+	border-radius: .5em;
+}
+
+#sec3, #sec4 {
+	width: 16%;
+	margin: 4px;
+	border: 1px solid black;
+	border-radius: .5em;
+	float: center;
+	clear: right;
+	display: inline-block;
+
+}
+
+#sec5, #sec6 {
+  background-color: gray;
+  width: 16%;
+  margin: 4px;
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: .5em;
+  float: center;
+  display: inline-block;
+
+}
+
 h2, h4 {
   color: white;
 }
@@ -68,10 +70,9 @@ h2, h4 {
   width: 150px;
   height: 30px;
   float: right;
-  position: sticky;
   text-align: center;
-  padding-top: 0px;
   border-radius: .5em;
+  padding-top: 0px;
 
 }
 
@@ -80,9 +81,8 @@ h2, h4 {
   width: 150px;
   height: 30px;
   float: right;
-  position: sticky;
   text-align: center;
-  padding-top: 0px;
   border-radius: .5em;
+  padding-top: 0px;
  
 }

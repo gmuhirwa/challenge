@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
-
+  
 }
 
 body {
   text-align: center;
   font-family: carbli;
+
 
 }
 
@@ -14,39 +15,48 @@ body {
 	width: 32%;
 	height: 120px;
 	padding-top: 4px;
-
+    border: 1px solid black;
+    border-radius: .5em;
 }
 
 #sec2 {
 	width: 32%;
+	border: 1px solid black;
+	border-radius: .5em;
 }
 
 #sec3, #sec4 {
 	width: 16%;
-	float: left;
 	margin: 4px;
+	border: 1px solid black;
+	vertical-align: middle;
+	border-radius: .5em;
+	position: relative;
 }
 
 #sec5, #sec6 {
   background-color: gray;
   position: relative;
   width: 16%;
-  float: left;
   margin: 4px;
   text-align: justify;
+  border: 1px solid black;
+  top: 240px;
+  border-radius: .5em;
 
 }
 
 #h1, #h2, #h3, #h4 {
 	
 	background-color: green;
-	border: 0px solid black;
+	border: 1px solid black;
     width: 120px;
     height: 30px;
     color: white;
     float: left;
     margin: 2px;
     padding-top: 5px;
+    border-radius: .5em;
 }
 
 h2, h4 {
@@ -60,6 +70,8 @@ h2, h4 {
   float: right;
   position: sticky;
   text-align: center;
+  padding-top: 0px;
+  border-radius: .5em;
 
 }
 
@@ -70,5 +82,7 @@ h2, h4 {
   float: right;
   position: sticky;
   text-align: center;
+  padding-top: 0px;
+  border-radius: .5em;
  
 }

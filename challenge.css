@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
-  
+  margin: 0;
+  padding-top: 0px;
+}
+
+.wrapper {
+	width: 1000%
 }
 
 body {
@@ -15,11 +20,13 @@ div {
 
 #sec1 {
 	background-color: gray;
-	width: 32%;
+	width: 33%;
 	height: 120px;
-	padding-top: 4px;
+	padding-top: 25px;
     border: 1px solid black;
     border-radius: .5em;
+    padding-left: 15px;
+
 }
 
 #h1, #h2, #h3, #h4 {
@@ -33,17 +40,18 @@ div {
     margin: 2px;
     padding-top: 5px;
     border-radius: .5em;
+
 }
 
-p {
-	float: right;
-	padding-bottom: 10px;
-}
+/*p {
+	padding-bottom: 0px;
+}*/
 
 #sec2 {
-	width: 32%;
+	width: 33%;
 	border: 1px solid black;
 	border-radius: .5em;
+
 }
 
 #sec3, #sec4 {
@@ -52,10 +60,8 @@ p {
 	border: 1px solid black;
 	border-radius: .5em;
 	float: center;
-	clear: right;
 	display: inline-block;
-	text-align: left;
-
+	
 }
 
 #sec5, #sec6 {
@@ -68,10 +74,12 @@ p {
   float: center;
   display: inline-block;
 
+
 }
 
 h2, h4 {
   color: white;
+  /*padding-top: 10px;*/
 }
 
 #p1 {
@@ -81,7 +89,8 @@ h2, h4 {
   text-align: center;
   border-radius: .5em;
   float: right; 
-  
+  padding-top: 0;
+
 }
 
 #p2 {
@@ -91,6 +100,7 @@ h2, h4 {
   text-align: center;
   border-radius: .5em;
   float: right;  
+  padding-top: 0;
    
 }
 

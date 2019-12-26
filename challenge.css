@@ -32,7 +32,6 @@ div {
   margin-top: -20px; /*This moves the 4 buttons to the top*/
   padding-top: 4px; /*This moves the Exercise text down*/
 }
-
 .foto1-me {
   max-width: 100%;
   height: auto;
@@ -55,9 +54,8 @@ div {
 
 #sec2 {
 	width: 33.33%;
-	border: 1px solid black;
 	border-radius: .5em;
-
+  
 }
 
 #sec3, #sec4 {
@@ -123,37 +121,44 @@ h2, h4 {
 }
 
   /***************** Extra small devices only **********/
-@media (min-width: 427px) and (max-width: 767px) {
+@media (min-width: 468px) and (max-width: 767px) {
   #sec1 {
   width: 90%;
   padding-right: 24px;
 } 
 #h1, #h2, #h3, #h4 {
-  width: 19%;
+  width: 22%;
   display: inline-block;
-  font-size: 8px;
-  padding-top: 12px;
+  font-size: 14px;
+  padding-top: 8px;
   margin-right: 10px;
   float: right;
   overflow: hidden;
 }
 h2 {
-  font-size: 22px;
+  font-size: 30px;
 }
 #sec2 {
   width: 90%;
 }
 #sec3, #sec4, #sec5, #sec6 {
   width: 44%;
-}
- 
-}
 
+}
+.jumbotron {
+  width: 90%;
+  padding: 0;
+  background: url('images/foto767.jpg') no-repeat;
+  height: 158px;
+  border: 1px solid black;
+  border-radius: .5em;
+  margin-bottom: 0; 
+
+}
 /***** Super extra small devicesOnly e.g., iPhone 4 ****/
-@media (max-width: 426px) {
+@media (max-width: 467px) {
 #sec1 {
   width: 90%;
-  padding-right: 24px;
 } 
 #h1, #h2, #h3, #h4 {
   width: 19%;
@@ -165,7 +170,7 @@ h2 {
   overflow: hidden;
 }
 h2 {
-  font-size: 22px;
+  font-size: 12px;
 }
 #sec2 {
   width: 90%;
@@ -173,6 +178,14 @@ h2 {
 #sec3, #sec4, #sec5, #sec6 {
   width: 44%;
 }
-
+.jumbotron {
+  width: 90%;
+  padding: 0;
+  background: url('images/foto767.jpg') no-repeat;
+  height: 158px;
+  border: 1px solid black;
+  border-radius: .5em;
+  margin-bottom: 0;
+ }
 }
 

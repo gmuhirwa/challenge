@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding-top: 0px;
-}
 
 body {
   text-align: center;
@@ -84,8 +79,6 @@ div {
   border-radius: .5em;
   float: center;
   display: inline-block;
-
-
 }
 
 h2, h4 {
@@ -101,7 +94,7 @@ h2, h4 {
   border-radius: .5em;
   float: right; 
   padding-top: 0;
-
+  margin-top: 0;
 }
 
 #p2 {
@@ -112,175 +105,74 @@ h2, h4 {
   border-radius: .5em;
   float: right;  
   padding-top: 0;
-   
+  margin-top: 0;
 }
 
-/* DeskTop - Large devices only :: 992px and above*/
-@media (min-width: 992px) {
-   #sec1 {
-    width: 33.33%;
-   }
-   #sec2 {
-   	width: 33.33%;
-   }
-   #sec3 {
-   	width: 16.5%;
-   }
-   #sec4 {
-   	width: 16.5%;
-   }
-   #sec5 {
-   	width: 16.5%;
-   }
-   #sec6 {
-   	width: 16.5%;
-   }
- }
-/* Tablet - iPad- Medium devices only :: 768px and 991 px*/
-@media (max-width: 1366px) {
 
-   #sec1 {
-    width: 100%;
-   }
-   #sec2 {
-   	width: 100%;
-   	overflow:hidden;
-   }
-   #sec3 {
-   	width: 47%;
-   	overflow:hidden;
-   }
-   #sec4 {
-   	width: 47%;
-   	overflow:hidden;
-   }
-   #sec5 {
-   	width: 47%;
-   }
-   #sec6 {
-   	width: 47%;
-   }
-   /*.image-me {
-   	width: %;
-   }*/
+/********************* Large devices only **************/
+@media (min-width: 1200px) {
 
-   #h1, #h2, #h3, #h4 {
-   	width: 23%;
-   }
+}
+/********************* Medium devices only *************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+/********************* Small devices only **************/
+@media (min-width: 768px) and (max-width: 991px) {
 
-   h4 {
-   	font-size: 14px;
-   	/*overflow:hidden;*/
-   }
-   
-    }
+}
 
-   
-/* Mobile View Most of them - Small devices only :: 812px and less*/
-@media (max-width: 812px) {
-	#sec1 {
-    width: 100%;
-   }
-   #sec2 {
-   	width: 100%;
-   	overflow:hidden;
-   }
-   #sec3 {
-   	width: 47.25%;
-   	overflow:hidden;
-   }
-   #sec4 {
-   	width: 47.25%;
-   	overflow:hidden;
-   }
-   #sec5 {
-   	width: 47.25%;
-   }
-   #sec6 {
-   	width: 47.25%;
-   }
-   /*.image-me {
-   	width: %;
-   }*/
+  /***************** Extra small devices only **********/
+@media (min-width: 427px) and (max-width: 767px) {
+  #sec1 {
+  width: 90%;
+  padding-right: 24px;
+} 
+#h1, #h2, #h3, #h4 {
+  width: 19%;
+  display: inline-block;
+  font-size: 8px;
+  padding-top: 12px;
+  margin-right: 10px;
+  float: right;
+  overflow: hidden;
+}
+h2 {
+  font-size: 22px;
+}
+#sec2 {
+  width: 90%;
+}
+#sec3, #sec4, #sec5, #sec6 {
+  width: 44%;
+}
+ 
+}
 
-   #h1, #h2, #h3, #h4 {
-   	width: 23%;
-   }
+/***** Super extra small devicesOnly e.g., iPhone 4 ****/
+@media (max-width: 426px) {
+#sec1 {
+  width: 90%;
+  padding-right: 24px;
+} 
+#h1, #h2, #h3, #h4 {
+  width: 19%;
+  display: inline-block;
+  font-size: 8px;
+  padding-top: 12px;
+  margin-right: 10px;
+  float: right;
+  overflow: hidden;
+}
+h2 {
+  font-size: 22px;
+}
+#sec2 {
+  width: 90%;
+}
+#sec3, #sec4, #sec5, #sec6 {
+  width: 44%;
+}
 
-   h4 {
-   	font-size: 14px;
-   	/*overflow:hidden;*/
-   }
-
-   /* Mobile View Galaxy S5 - Small devices only :: 640px and less*/
-@media (max-width: 640px) {
-	#sec1 {
-    width: 100%;
-   }
-   #sec2 {
-   	width: 100%;
-   	overflow:hidden;
-   }
-   #sec3 {
-   	width: 47.22%;
-   	overflow:hidden;
-   }
-   #sec4 {
-   	width: 47.22%;
-   	overflow:hidden;
-   }
-   #sec5 {
-   	width: 47.22%;
-   }
-   #sec6 {
-   	width: 47.22%;
-   }
-   /*.image-me {
-   	width: %;
-   }*/
-
-   #h1, #h2, #h3, #h4 {
-   	width: 23%;
-   }
-
-   h4 {
-   	font-size: 12px;
-   	/*overflow:hidden;*/
-   }
-    
-       /* Mobile View iPhone 5/SE - Small devices only :: 640px and less*/
-@media (max-width: 640px) {
-	#sec1 {
-    width: 100%;
-   }
-   #sec2 {
-   	width: 100%;
-   	overflow:hidden;
-   }
-   #sec3 {
-   	width: 46.70%;
-   	overflow:hidden;
-   }
-   #sec4 {
-   	width: 46.70%;
-   	overflow:hidden;
-   }
-   #sec5 {
-   	width: 46.70%;
-   }
-   #sec6 {
-   	width: 46.70%;
-   }
-   /*.image-me {
-   	width: %;
-   }*/
-
-   #h1, #h2, #h3, #h4 {
-   	width: 23%;
-   }
-
-   h4 {
-   	font-size: 12px;
-   	/*overflow:hidden;*/
-   }
+}
 
